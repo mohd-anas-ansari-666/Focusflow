@@ -70,7 +70,7 @@ const HabitsSection = ({ habits, onUpdate }) => {
   return (
     <div className="card">
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-xl font-semibold text-gray-900">Today's Habits</h2>
+        <h2 className="text-xl font-semibold text-gray-900  dark:text-white">Today's Habits</h2>
         <button
           onClick={() => setShowAddForm(!showAddForm)}
           className="bg-blue-600 hover:bg-blue-700 text-white p-2 rounded-lg transition-colors duration-200"

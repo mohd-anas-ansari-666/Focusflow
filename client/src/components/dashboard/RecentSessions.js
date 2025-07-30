@@ -4,7 +4,7 @@ import { Clock } from 'lucide-react';
 const RecentSessions = ({ sessions }) => {
   return (
     <div className="card">
-      <h2 className="text-xl font-semibold text-gray-900 mb-4">Recent Sessions</h2>
+      <h2 className="text-xl font-semibold text-gray-900  dark:text-white mb-4">Recent Sessions</h2>
       
       {sessions?.length > 0 ? (
         <div className="space-y-3">

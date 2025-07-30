@@ -6,7 +6,7 @@ const StatsOverview = ({ stats }) => {
     <div className="card">
       <div className="flex items-center mb-4">
         <BarChart3 className="w-6 h-6 text-primary-600 mr-2" />
-        <h2 className="text-xl font-semibold text-gray-900">Weekly Overview</h2>
+        <h2 className="text-xl font-semibold text-gray-900  dark:text-white">Weekly Overview</h2>
       </div>
       
       <div className="text-center text-gray-500">
